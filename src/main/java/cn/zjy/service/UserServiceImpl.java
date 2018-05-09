@@ -23,6 +23,7 @@ public class UserServiceImpl implements UserService{
     public List<User> findAllUser(){
         List<User> userList = userMapper.findAll();
         log.info("查询到的用户列表是:{}",userList);
+        log.info("查询到的用户列表是:{}",userList);
         return userList;
     }
 
