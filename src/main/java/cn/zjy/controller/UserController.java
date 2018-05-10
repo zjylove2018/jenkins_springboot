@@ -23,6 +23,7 @@ public class UserController {
     public List<User> findAllUser(){
         List<User> userList = userService.findAllUser();
         log.info("查询到的用户列表是:{}",userList);
+        log.info("查询到的用户列表是:{}",userList);
         return userList;
     }
 
