@@ -16,7 +16,8 @@ public class HelloController {
         Map<String, String> map=new HashMap<>();
         map.put("id","123");
         map.put("name","张三");
-
+        map.put("address","北京");
+        map.put("phone", "1234567");
         return map;
     }
 }
