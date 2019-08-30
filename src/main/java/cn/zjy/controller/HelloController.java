@@ -21,7 +21,6 @@ public class HelloController {
         map.put("id1","123");
         map.put("name1","张三");
         map.put("address1","北京");
-        map.put("phone1", "1234567");
         return map;
     }
 }
