@@ -20,7 +20,7 @@ public class HelloController {
         map.put("phone", "1234567");
         map.put("id1","123");
         map.put("name1","张三");
-        map.put("address1","北京");
+
         return map;
     }
 }
